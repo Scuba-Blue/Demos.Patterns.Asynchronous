@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>disable</Nullable>
+	<langversion>latest</langversion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Demos.Patterns.Asynchronous.Injection.csproj.vspscc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bytz.Extensions.DependencyInjection" Version="3.2.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demos.Patterns.Asynchronous.Abstractions\Demos.Patterns.Asynchronous.Abstractions.csproj" />
+    <ProjectReference Include="..\Demos.Patterns.Asynchronous\Demos.Patterns.Asynchronous.csproj" />
+  </ItemGroup>
+
+</Project>

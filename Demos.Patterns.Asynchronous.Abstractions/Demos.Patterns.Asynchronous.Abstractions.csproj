@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>disable</Nullable>
+	<langversion>latest</langversion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Development\Demos\Demos.Patterns.Asynchronous\Demos.Patterns.Asynchronous.Abstractions\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Demos.Patterns.Asynchronous.Abstractions.csproj.vspscc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Development\Demos\Demos.Patterns.Asynchronous\Demos.Patterns.Asynchronous.Abstractions\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demos.Patterns.Asynchronous.ConsoleApp", "Demos.Patterns.Asynchronous.ConsoleApp\Demos.Patterns.Asynchronous.ConsoleApp.csproj", "{A7A81AEF-30E9-43B9-8D4C-22C8D1A0BD2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demos.Patterns.Asynchronous", "Demos.Patterns.Asynchronous\Demos.Patterns.Asynchronous.csproj", "{7A4C0A88-E360-4F20-B936-C521998F1B83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demos.Patterns.Asynchronous.Abstractions", "Demos.Patterns.Asynchronous.Abstractions\Demos.Patterns.Asynchronous.Abstractions.csproj", "{FA420D2A-D79F-4920-8F2B-DE19664CAC24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demos.Patterns.Asynchronous.Injection", "Demos.Patterns.Asynchronous.Injection\Demos.Patterns.Asynchronous.Injection.csproj", "{57C308AB-02C8-4A61-B9B3-48DE755DB5A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Common", "Tests.Common\Tests.Common.csproj", "{1A0F652B-E4D5-44DE-9252-DDCD1304260E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Demos.Patterns.Asynchronous", "Tests.Demos.Patterns.Asynchronous\Tests.Demos.Patterns.Asynchronous.csproj", "{4ACD0842-84BD-441B-BD56-85A7B5A3AA35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7A81AEF-30E9-43B9-8D4C-22C8D1A0BD2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A81AEF-30E9-43B9-8D4C-22C8D1A0BD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A81AEF-30E9-43B9-8D4C-22C8D1A0BD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A81AEF-30E9-43B9-8D4C-22C8D1A0BD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4C0A88-E360-4F20-B936-C521998F1B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4C0A88-E360-4F20-B936-C521998F1B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4C0A88-E360-4F20-B936-C521998F1B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4C0A88-E360-4F20-B936-C521998F1B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA420D2A-D79F-4920-8F2B-DE19664CAC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA420D2A-D79F-4920-8F2B-DE19664CAC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA420D2A-D79F-4920-8F2B-DE19664CAC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA420D2A-D79F-4920-8F2B-DE19664CAC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C308AB-02C8-4A61-B9B3-48DE755DB5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C308AB-02C8-4A61-B9B3-48DE755DB5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C308AB-02C8-4A61-B9B3-48DE755DB5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C308AB-02C8-4A61-B9B3-48DE755DB5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0F652B-E4D5-44DE-9252-DDCD1304260E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0F652B-E4D5-44DE-9252-DDCD1304260E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0F652B-E4D5-44DE-9252-DDCD1304260E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0F652B-E4D5-44DE-9252-DDCD1304260E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ACD0842-84BD-441B-BD56-85A7B5A3AA35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ACD0842-84BD-441B-BD56-85A7B5A3AA35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ACD0842-84BD-441B-BD56-85A7B5A3AA35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ACD0842-84BD-441B-BD56-85A7B5A3AA35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {147782A7-0FE8-45B6-9EC9-720C623D41CC}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://hephaestus/demos
+		SccProjectUniqueName0 = Demos.Patterns.Asynchronous.ConsoleApp\\Demos.Patterns.Asynchronous.ConsoleApp.csproj
+		SccProjectName0 = Demos.Patterns.Asynchronous.ConsoleApp
+		SccAuxPath0 = http://hephaestus/demos
+		SccLocalPath0 = Demos.Patterns.Asynchronous.ConsoleApp
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Demos.Patterns.Asynchronous\\Demos.Patterns.Asynchronous.csproj
+		SccProjectName1 = Demos.Patterns.Asynchronous
+		SccAuxPath1 = http://hephaestus/demos
+		SccLocalPath1 = Demos.Patterns.Asynchronous
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Demos.Patterns.Asynchronous.Abstractions\\Demos.Patterns.Asynchronous.Abstractions.csproj
+		SccProjectName2 = Demos.Patterns.Asynchronous.Abstractions
+		SccAuxPath2 = http://hephaestus/demos
+		SccLocalPath2 = Demos.Patterns.Asynchronous.Abstractions
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = Demos.Patterns.Asynchronous.Injection\\Demos.Patterns.Asynchronous.Injection.csproj
+		SccProjectName3 = Demos.Patterns.Asynchronous.Injection
+		SccAuxPath3 = http://hephaestus/demos
+		SccLocalPath3 = Demos.Patterns.Asynchronous.Injection
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = Tests.Common\\Tests.Common.csproj
+		SccProjectName4 = Tests.Common
+		SccAuxPath4 = http://hephaestus/demos
+		SccLocalPath4 = Tests.Common
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = Tests.Demos.Patterns.Asynchronous\\Tests.Demos.Patterns.Asynchronous.csproj
+		SccProjectName5 = Tests.Demos.Patterns.Asynchronous
+		SccAuxPath5 = http://hephaestus/demos
+		SccLocalPath5 = Tests.Demos.Patterns.Asynchronous
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
